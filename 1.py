@@ -11,7 +11,6 @@ for line in lines:
 sum = 0
 index = 0
 while index < len(left):
-  print(int(left[index]) * right.count(left[index]))
   sum += int(left[index]) * right.count(left[index])
   index += 1
 
